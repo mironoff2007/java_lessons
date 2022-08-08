@@ -1,4 +1,4 @@
-package ru.mironov.javalessons.basics.strings;
+package ru.mironov.javalessons.strings;
 
 public class StringLesson {
 }
