@@ -9,20 +9,26 @@ public class InputStreamLesson {
         /*
         * JavaRush task
          */
-        InputStream inputStream = System.in;
+        //Нужно задать системный поток ввода
+        //InputStream inputStream =
 
-        InputStreamReader inputStreamReader = new InputStreamReader(inputStream);
+        //Нужно создать ридер потока ввода
+        //InputStreamReader inputStreamReader =
 
-        BufferedReader bufferedReader = new BufferedReader(inputStreamReader);
+        //Нужно создать буфферезованный поток ввода
+        //BufferedReader bufferedReader =
 
-        String name1 = bufferedReader.readLine();
+        //прочитать строки с клавиатуры
+        //String name1 =
 
-        String name2 = bufferedReader.readLine();
+        //String name2 =
 
-        String name3 = bufferedReader.readLine();
+        //String name3 =
 
-        inputStreamReader.close();
+        //закрыть ридер и поток ввода
 
-        System.out.println(name1 + " + " + name2 + " + " + name3 + " = Чистая любовь, да-да!");
+
+        //вывести результат
+        //System.out.println(name1 + " + " + name2 + " + " + name3 + " = Чистая любовь, да-да!");
     }
 }
